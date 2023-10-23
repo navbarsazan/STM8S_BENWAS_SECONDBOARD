@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"G:\nasb\iar\common\bin\cspybat" -f "C:\Users\Maziar\Documents\IAR Embedded Workbench\stm8\examples\STM8S\benwas_second_board_stm8s00\settings\SimpleLEDBlinkExample.Debug.general.xcl" --backend -f "C:\Users\Maziar\Documents\IAR Embedded Workbench\stm8\examples\STM8S\benwas_second_board_stm8s00\settings\SimpleLEDBlinkExample.Debug.driver.xcl" 
+"G:\nasb\iar\common\bin\cspybat" -f "G:\benwas_second_board_stm8s00\settings\SimpleLEDBlinkExample.Debug.general.xcl" --backend -f "G:\benwas_second_board_stm8s00\settings\SimpleLEDBlinkExample.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"G:\nasb\iar\common\bin\cspybat" -f "C:\Users\Maziar\Documents\IAR Embedded Workbench\stm8\examples\STM8S\benwas_second_board_stm8s00\settings\SimpleLEDBlinkExample.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Maziar\Documents\IAR Embedded Workbench\stm8\examples\STM8S\benwas_second_board_stm8s00\settings\SimpleLEDBlinkExample.Debug.driver.xcl" 
+"G:\nasb\iar\common\bin\cspybat" -f "G:\benwas_second_board_stm8s00\settings\SimpleLEDBlinkExample.Debug.general.xcl" "--debug_file=%~1" --backend -f "G:\benwas_second_board_stm8s00\settings\SimpleLEDBlinkExample.Debug.driver.xcl" 
 
 @echo off 
 :end
